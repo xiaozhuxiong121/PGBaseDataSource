@@ -30,5 +30,3 @@
     return cell;
 }];
 ```
-##CocoaPods安装
-pod 'PGBaseDataSource'
