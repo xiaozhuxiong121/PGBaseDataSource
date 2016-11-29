@@ -20,6 +20,11 @@
 }
 ```
 ##PGBaseDataSource的写法
+
+设置dataSource
+``` OC
+self.tableView.dataSource = [PGBaseDataSource instance];
+```
 ```Objective-C
 [[PGBaseDataSource instance] numberOfSectionsInTableView:^NSUInteger(UITableView *tableView) {
     return 1;
