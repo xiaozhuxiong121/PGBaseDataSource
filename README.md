@@ -21,8 +21,8 @@
 ```
 ##PGBaseDataSource的写法
 
-设置dataSource
 ``` OC
+//设置dataSource
 self.tableView.dataSource = [PGBaseDataSource instance];
 ```
 ```Objective-C
