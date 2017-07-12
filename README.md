@@ -1,7 +1,10 @@
 # PGBaseDataSource
 将dataSource分离出去，减小TableViewController的体积。
 
-##一般普通的写法
+# CocoaPods安装
+``` pod 'PGBaseDataSource ```  
+
+## 一般普通的写法
 
 ```Objective-C
 #pragma mark UITableViewDataSource
@@ -19,7 +22,7 @@
     return cell;
 }
 ```
-##PGBaseDataSource的写法
+## PGBaseDataSource的写法
 
 ``` OC
 //设置dataSource
@@ -35,8 +38,5 @@ self.tableView.dataSource = [PGBaseDataSource instance];
     return cell;
 }];
 ```
-##CocoaPods安装
-pod 'PGBaseDataSource'
-
-## Github Address    
+# Github Address    
 https://github.com/xiaozhuxiong121/PGBaseDataSource
